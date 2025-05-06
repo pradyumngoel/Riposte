@@ -1,0 +1,6 @@
+[gd_resource type="SystemFont" format=3 uid="uid://bp8douvukbibj"]
+
+[resource]
+font_weight = 700
+font_stretch = 125
+force_autohinter = true
