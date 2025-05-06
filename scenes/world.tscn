@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://cavehmpq17oyi"]
+[gd_scene load_steps=22 format=3 uid="uid://cavehmpq17oyi"]
 
 [ext_resource type="Texture2D" uid="uid://51gvjc4jdg3p" path="res://sprites/tilesets/water_decorations.png" id="1_71nyd"]
 [ext_resource type="Script" path="res://scripts/world.gd" id="1_ybiwc"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://bna6bbdffnil0" path="res://sprites/tilesets/decor_16x16.png" id="6_llym0"]
 [ext_resource type="Texture2D" uid="uid://ihpysp2tsgqs" path="res://sprites/tilesets/decor_8x8.png" id="7_jfqhi"]
 [ext_resource type="SystemFont" uid="uid://bp8douvukbibj" path="res://font.tres" id="10_snpce"]
+[ext_resource type="FontFile" uid="uid://b7ykq8mnp88t6" path="res://pixel_rpg.ttf" id="11_keibf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s4d6k"]
 texture = ExtResource("2_76no5")
@@ -1024,7 +1025,7 @@ sources/9 = SubResource("TileSetAtlasSource_fvvh3")
 sources/0 = SubResource("TileSetAtlasSource_s4d6k")
 
 [sub_resource type="Theme" id="Theme_0avss"]
-default_font = ExtResource("10_snpce")
+default_font = ExtResource("11_keibf")
 default_font_size = 50
 Label/fonts/font = ExtResource("10_snpce")
 
@@ -1079,4 +1080,5 @@ offset_left = 86.0
 offset_top = 556.0
 offset_right = 126.0
 offset_bottom = 596.0
+theme_override_fonts/normal_font = ExtResource("11_keibf")
 text = "4"

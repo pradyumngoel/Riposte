@@ -3,7 +3,7 @@
 // that they need an Internet connection to run the project if desired.
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
-const CACHE_VERSION = "1746520071|31350962";
+const CACHE_VERSION = "1746521154|319251222";
 const CACHE_PREFIX = "Riposte-sw-cache-";
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 const OFFLINE_URL = "post-apocalyptic-survival.offline.html";

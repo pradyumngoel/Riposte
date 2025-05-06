@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dtve6mk883gqn"]
+[gd_scene load_steps=3 format=3 uid="uid://dtve6mk883gqn"]
 
 [ext_resource type="Script" path="res://scripts/win_screen.gd" id="1_jikyw"]
+[ext_resource type="FontFile" uid="uid://b7ykq8mnp88t6" path="res://pixel_rpg.ttf" id="2_wpfty"]
 
 [node name="winScreen" type="Node2D"]
 script = ExtResource("1_jikyw")
@@ -10,13 +11,15 @@ offset_left = 373.0
 offset_top = 307.0
 offset_right = 786.0
 offset_bottom = 422.0
+theme_override_fonts/font = ExtResource("2_wpfty")
 text = "Play Again"
 
 [node name="Label" type="Label" parent="."]
-offset_left = 458.0
-offset_top = 212.0
-offset_right = 710.0
-offset_bottom = 297.0
+offset_left = 438.0
+offset_top = 227.0
+offset_right = 720.0
+offset_bottom = 312.0
+theme_override_fonts/font = ExtResource("2_wpfty")
 theme_override_font_sizes/font_size = 50
 text = "YOU WIN!"
 
