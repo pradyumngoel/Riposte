@@ -1,20 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://dtve6mk883gqn"]
+[gd_scene load_steps=4 format=3 uid="uid://dtve6mk883gqn"]
 
 [ext_resource type="Script" path="res://scripts/win_screen.gd" id="1_jikyw"]
+[ext_resource type="Theme" uid="uid://bx7s8dex6xyrr" path="res://theme.tres" id="2_2gcbx"]
 [ext_resource type="FontFile" uid="uid://b7ykq8mnp88t6" path="res://pixel_rpg.ttf" id="2_wpfty"]
 
 [node name="winScreen" type="Node2D"]
 script = ExtResource("1_jikyw")
 
-[node name="Button" type="Button" parent="."]
-offset_left = 373.0
-offset_top = 307.0
-offset_right = 786.0
-offset_bottom = 422.0
-theme_override_fonts/font = ExtResource("2_wpfty")
-text = "Play Again"
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1156.0
+offset_bottom = 671.0
+color = Color(0.192157, 0.239216, 0.211765, 1)
 
-[node name="Label" type="Label" parent="."]
+[node name="Control" type="Control" parent="."]
+z_index = 5
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
 offset_left = 438.0
 offset_top = 227.0
 offset_right = 720.0
@@ -23,4 +28,19 @@ theme_override_fonts/font = ExtResource("2_wpfty")
 theme_override_font_sizes/font_size = 50
 text = "YOU WIN!"
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[node name="Button" type="Button" parent="Control"]
+offset_left = 373.0
+offset_top = 307.0
+offset_right = 786.0
+offset_bottom = 422.0
+theme = ExtResource("2_2gcbx")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_wpfty")
+text = "Play Again"
+
+[connection signal="pressed" from="Control/Button" to="." method="_on_button_pressed"]
