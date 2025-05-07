@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://e2b71iir26wa"]
 
-[ext_resource type="Script" path="res://scripts/spike.gd" id="1_u5upd"]
+[ext_resource type="Script" uid="uid://bcx0pbeynuhbi" path="res://scripts/spike.gd" id="1_u5upd"]
 [ext_resource type="Texture2D" uid="uid://eeoc2l05g8yt" path="res://sprites/objects/objects.png" id="2_hpgor"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g40mh"]

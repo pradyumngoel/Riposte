@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://c6l2k14xa5xqp"]
 
-[ext_resource type="Script" path="res://scripts/arrow.gd" id="1_4qnb3"]
+[ext_resource type="Script" uid="uid://brw1tg3dmoofh" path="res://scripts/arrow.gd" id="1_4qnb3"]
 [ext_resource type="Texture2D" uid="uid://qulyrkxqx4dp" path="res://other sprites/Characters(100x100)/Soldier/Arrow(projectile)/Arrow01(32x32).png" id="1_g08rf"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1qr46"]

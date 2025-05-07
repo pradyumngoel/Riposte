@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b85s3a5fbc8re"]
 
-[ext_resource type="Script" path="res://scripts/orc_attack.gd" id="1_d37dr"]
+[ext_resource type="Script" uid="uid://coep0akdgjonx" path="res://scripts/orc_attack.gd" id="1_d37dr"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8g6xn"]
 radius = 50.0

@@ -1,6 +1,6 @@
 [gd_scene load_steps=90 format=3 uid="uid://b3gs7kh1bchf5"]
 
-[ext_resource type="Script" path="res://scripts/enemy.gd" id="1_n8x03"]
+[ext_resource type="Script" uid="uid://bg5cj2aqje8g5" path="res://scripts/enemy.gd" id="1_n8x03"]
 [ext_resource type="Texture2D" uid="uid://mveoeksjya1q" path="res://sprites/characters/slime.png" id="2_8ju3b"]
 [ext_resource type="Texture2D" uid="uid://dex5k5aea5wie" path="res://other sprites/Characters(100x100)/Orc/Orc with shadows/Orc-Attack01.png" id="2_61h3s"]
 [ext_resource type="Texture2D" uid="uid://kl5h8mh3ov7m" path="res://other sprites/Characters(100x100)/Orc/Orc with shadows/Orc-Death.png" id="2_rnvh1"]

@@ -12,15 +12,13 @@ extends Node2D
 var enemy = preload("res://scenes/enemy.tscn")
 
 var spawns;
-var levels = [4, 6, 0]#, 6, 1, 4, 6, 4, 1, 0]
+var levels = [4, 6, 4, 6, 1, 4, 6, 4, 1, 0]
 var enemies = []
 
 var player = preload("res://scenes/player.tscn")
 var playerInstance
 
 func _ready():
-	OS.set_window_title(ProjectSettings.get_setting("application/config/name") + " without debug :-)"
-	
 	spawns = [spawn1, spawn2, spawn3, spawn4, spawn5, spawn6]
 	playerInstance = player.instantiate()
 	add_child(playerInstance)
