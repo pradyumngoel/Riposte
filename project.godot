@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="RiposteGit"
+config/name="Riposte"
 config/description="A	game where you have no power of your own but must others powers back onto them
 Left mouse: Place spike
 Right mouse: Parry
