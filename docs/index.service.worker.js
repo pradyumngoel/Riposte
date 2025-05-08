@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1746626509|1129408068';
+const CACHE_VERSION = '1746684115|282017289';
 /** @type {string} */
 const CACHE_PREFIX = 'RiposteGit-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;

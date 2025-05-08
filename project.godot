@@ -18,7 +18,7 @@ Space: Area parry"
 config/version="1"
 run/main_scene="res://scenes/start_screen.tscn"
 config/features=PackedStringArray("4.4", "Mobile")
-boot_splash/image="res://greenfn.jpg"
+boot_splash/image="uid://bmfss04yrg3mv"
 config/icon="res://other sprites/Arrow(Projectile)/Arrow01(32x32).png"
 
 [autoload]
