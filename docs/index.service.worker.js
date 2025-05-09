@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1746684493|74757110';
+const CACHE_VERSION = '1746780918|249453848';
 /** @type {string} */
 const CACHE_PREFIX = 'Riposte-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
